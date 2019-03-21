@@ -8,8 +8,10 @@
   },
   "npmClient": "yarn",
   "packages": [
-    "packages/*"
+    "optional/*",
+    "packages/*",
+    "packages/code-du-travail-data/dataset/!(fiches_service_public)",
+    "packages/code-du-travail-data/dataset/code_du_travail/eposeidon_script"
   ],
-  "useWorkspaces": true,
   "version": "2.0.0"
 }

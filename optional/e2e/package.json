@@ -1,0 +1,11 @@
+{
+  "name": "@cdtn/e2e",
+  "scripts": {
+    "test": "codeceptjs run "
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "codeceptjs": "^2.0.6",
+    "puppeteer": "^1.12.2"
+  }
+}
